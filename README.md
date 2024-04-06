@@ -1,3 +1,10 @@
+Запуск проекта 
+npm i
+npm run dev
+
+версия ноды v.20.2.0
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
