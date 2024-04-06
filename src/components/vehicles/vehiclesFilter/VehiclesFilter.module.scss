@@ -1,0 +1,16 @@
+.root {
+  position: fixed;
+  top: 0;
+  width: 350px;
+  padding: 5px;
+  left: calc(50% - var(--vehicles-list-width) / 2 - var(--gap));
+  transform: translateX(-100%);
+  background-color: #0b344d;
+  -webkit-box-shadow: 0 0 13px 1px #1F1F1F;
+  box-shadow: 0 0 13px 1px #1F1F1F;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

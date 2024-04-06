@@ -1,0 +1,10 @@
+query getTypes($lang: String) {
+    vehicleTypes(lang: $lang){
+        name
+        title
+        titleShort
+        icons{
+            normal
+        }
+    }
+}

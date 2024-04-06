@@ -1,0 +1,10 @@
+
+fragment NationFragment on Nation {
+    name
+    title
+    icons{
+        small
+        default
+        tiny
+    }
+}

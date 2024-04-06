@@ -1,0 +1,5 @@
+query getVehicles($lang: String) {
+    vehicles(lang: $lang) {
+        ...VehicleFragment
+    }
+}

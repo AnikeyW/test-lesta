@@ -1,0 +1,9 @@
+schema: 'https://vortex.korabli.su/api/graphql/glossary/'
+documents: './src/gql/**/*.gql'
+ignoreNoDocuments: true
+generates:
+  ./src/__generated__/output.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo

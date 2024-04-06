@@ -1,0 +1,27 @@
+fragment VehicleFragment on Vehicle {
+    id
+    title
+    description
+    icons {
+        medium
+    }
+    level
+    type {
+        name
+        title
+        icons {
+            default
+        }
+    }
+    nation {
+        name
+        title
+        color
+        icons {
+            small
+            medium
+            large
+            tiny
+        }
+    }
+}

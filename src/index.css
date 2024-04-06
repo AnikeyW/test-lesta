@@ -1,0 +1,16 @@
+:root{
+    background-color: #1b344a;
+    overflow-y: scroll;
+    --vehicles-list-width: 300px;
+    --gap: 10px;
+    --color-text: #cccccc;
+    --hover-color: #3a5c70;
+    --selected-color: #32515e;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Calibri, sans-serif;
+}

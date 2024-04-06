@@ -1,0 +1,29 @@
+.root{
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+}
+
+.nationItem{
+  height: 27px;
+  display: flex;
+  align-items: center;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  padding: 0 1rem;
+
+  .icon{
+    width: 27px;
+    height: 18px;
+    background-color: var(--color-text);
+    margin: 10px 0;
+  }
+
+  .title{
+    width: 50px;
+    height: 10px;
+    background-color: var(--color-text);
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,5 @@
+query getVehicleById($lang: String, $id: String) {
+    vehicles(lang: $lang, vehicleId: $id) {
+        ...VehicleDetails
+    }
+}

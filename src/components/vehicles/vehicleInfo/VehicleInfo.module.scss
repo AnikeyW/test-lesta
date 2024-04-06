@@ -1,0 +1,68 @@
+.root{
+  position: fixed;
+  top: 0;
+  width: 350px;
+  left: calc(50% + var(--vehicles-list-width) / 2 + var(--gap));
+  background-color: #0b344d;
+  -webkit-box-shadow: 0 0 13px 1px #1F1F1F;
+  box-shadow: 0 0 13px 1px #1F1F1F;
+  padding: 5px;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  min-height: 320px;
+
+  .title{
+    color: white;
+  }
+
+  .image {
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+
+  .titleKey{
+    display: inline-block;
+    width: 70px;
+  }
+
+  .row{
+    min-height: 30px;
+  }
+
+  .type{
+    display: flex;
+
+    .typeIcon{
+      width: 20px;
+      img{
+        width: 100%;
+      }
+    }
+    .typeTitle{
+      margin-left: 0.5rem;
+    }
+  }
+
+  .nation{
+    display: flex;
+
+    .nationIcon{
+      width: 20px;
+      img{
+        width: 100%;
+      }
+    }
+    .nationTitle{
+      margin-left: 0.5rem;
+    }
+  }
+
+  .level{}
+
+  .description{
+    margin-top: 1rem;
+    text-indent: 1em;
+  }
+}

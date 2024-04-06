@@ -1,0 +1,8 @@
+.root{
+  width: var(--vehicles-list-width);
+  min-width: var(--vehicles-list-width);
+  margin: 0 auto;
+  background-color: #1d272f;
+  -webkit-box-shadow: 0 0 13px 1px #1F1F1F;
+  box-shadow: 0 0 13px 1px #1F1F1F;
+}

@@ -1,0 +1,41 @@
+.root{
+  margin-bottom: 5px;
+  cursor: pointer;
+  background-color: #0b344d;
+  border-radius: 0.25rem;
+  display: flex;
+  position: relative;
+  height: 180.55px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  &:hover{
+    background-color: var(--hover-color);
+  }
+
+  .image{
+    width: 100%;
+
+    img{
+      width: 100%;
+    }
+  }
+
+  .info{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0.5rem;
+
+    .infoItem{
+      width: 27px;
+      &:last-child{
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
