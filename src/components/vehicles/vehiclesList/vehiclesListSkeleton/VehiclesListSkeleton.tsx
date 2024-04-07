@@ -7,10 +7,14 @@ const VehiclesListSkeleton = () => {
     <div className={styles.root}>
       {vehicleSkeletons.map((vehicleSkeleton) => (
         <div className={styles.skeleton} key={vehicleSkeleton}>
-          <div className={styles.icons}>
-            <div className={styles.typeIcon}></div>
-            <div className={styles.nationIcon}></div>
-            <div className={styles.levelIcon}></div>
+          <div className={styles.info}>
+            <div className={styles.icons}>
+              <div className={styles.typeIcon}></div>
+              <div className={styles.nationIcon}></div>
+              <div className={styles.levelIcon}></div>
+            </div>
+
+            <div className={styles.vehicleName}></div>
           </div>
         </div>
       ))}

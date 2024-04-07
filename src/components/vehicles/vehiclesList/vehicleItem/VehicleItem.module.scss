@@ -24,18 +24,23 @@
 
   .info{
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
     padding: 0 0.5rem;
 
-    .infoItem{
-      width: 27px;
-      &:last-child{
-        display: flex;
-        justify-content: flex-end;
+    .icons{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .infoItem{
+        width: 27px;
+        &:last-child{
+          display: flex;
+          justify-content: flex-end;
+        }
       }
     }
+
+    .vehicleName{}
   }
 }

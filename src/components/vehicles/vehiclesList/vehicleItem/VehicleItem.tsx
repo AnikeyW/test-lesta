@@ -19,19 +19,23 @@ const VehicleItem: FC<Props> = ({ data }) => {
       </div>
 
       <div className={styles.info}>
-        <div className={styles.infoItem}>
-          <div className={styles.typeIcon}>
-            <img src={data.type?.icons?.default} alt="typeIcon" />
+        <div className={styles.icons}>
+          <div className={styles.infoItem}>
+            <div className={styles.typeIcon}>
+              <img src={data.type?.icons?.default} alt="typeIcon" />
+            </div>
           </div>
+
+          <div className={styles.infoItem}>
+            <div className={styles.nationIcon}>
+              <img src={data.nation?.icons?.tiny} alt="nationIcon" />
+            </div>
+          </div>
+
+          <div className={styles.infoItem}>{data.level}</div>
         </div>
 
-        <div className={styles.infoItem}>
-          <div className={styles.nationIcon}>
-            <img src={data.nation?.icons?.tiny} alt="nationIcon" />
-          </div>
-        </div>
-
-        <div className={styles.infoItem}>{data.level}</div>
+        <div className={styles.vehicleName}>{data.title}</div>
       </div>
     </div>
   );
